@@ -1,0 +1,36 @@
+.header{
+   display: flex;
+   flex-wrap: wrap;
+}
+.headeritem{
+   width: 90%;
+   height: 15px;
+   margin: 0px auto;
+}
+.item1{
+   background-color: navy;
+   font-size: 10px;
+   justify-content: center;
+   align-items: center;
+   color: white; 
+   text-align: right;
+}
+.item2{
+   background-color: white;
+}
+.category{
+   width: 90%;
+   list-style-type: none;
+   margin: 0px auto;
+}
+.imgitem{
+   display: flex;
+   width: 100%;
+   height: 100%;
+   justify-content: space-between;
+   align-items: center;
+   background-color: white;
+   font-size: 5px;
+   color: black;
+}
+
