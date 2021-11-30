@@ -141,7 +141,6 @@ ul{
    width: 80%;
    display: flex;
    margin: auto;
-   left: 90px;
 }
 li{
    display: flex;
@@ -152,9 +151,9 @@ li{
    margin: auto;
 }
 .ttx1{
-   text-align: end;
+   display: flex;
+   justify-content: end;
    color: red;
-   margin: 0 2em;
 }
 .txt1{
    font-size: 15px;
@@ -177,3 +176,73 @@ p{
    text-align: start;
    margin: auto;
 }
+.text1{
+   height: 60%;
+   margin-top: 40px;
+}
+.line1{
+   height: 100px;
+   margin-bottom: 40px;
+}
+.form{
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+.formwrap{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   margin-top: 40px;
+}
+.nameform{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-bottom: 30px;
+}
+.name, .mail, .wright{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-bottom: 30px;
+   width: 50%;
+}
+label{
+   width: 30%;
+   display: flex;
+   flex-direction: column;
+}
+label, input, textarea{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+input, textarea{
+   width: 70%;
+   margin-left: 30px;
+}
+textarea{
+   height: 100px;
+}
+.submit{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+.button {
+   display: flex;
+   justify-content: center;
+   width: 300px;
+   height: 15px;
+   border-radius: 30px;
+   font-size: 15px;
+   text-align: center;
+   padding: 15px 15px;
+   background-color: red;
+   color: white;
+ }
